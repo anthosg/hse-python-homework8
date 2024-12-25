@@ -1,7 +1,7 @@
 from calculator import subtract
 
 def test_subtract(a, b):
-    c = subtract(a, b) - 1
+    c = subtract(a, b)
     test_c = a - b
 
     assert c == test_c
